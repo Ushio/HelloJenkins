@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6FB6EB4199C9FEA000E6D1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FB6EB3199C9FEA000E6D1E /* Foundation.framework */; };
+		A6FB6EB6199C9FEA000E6D1E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FB6EB5199C9FEA000E6D1E /* CoreGraphics.framework */; };
+		A6FB6EB8199C9FEA000E6D1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FB6EB7199C9FEA000E6D1E /* UIKit.framework */; };
+		A6FB6EBE199C9FEA000E6D1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6FB6EBC199C9FEA000E6D1E /* InfoPlist.strings */; };
+		A6FB6EC0199C9FEA000E6D1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FB6EBF199C9FEA000E6D1E /* main.m */; };
+		A6FB6EC4199C9FEA000E6D1E /* USJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FB6EC3199C9FEA000E6D1E /* USJAppDelegate.m */; };
+		A6FB6EC7199C9FEA000E6D1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6FB6EC5199C9FEA000E6D1E /* Main.storyboard */; };
+		A6FB6ECA199C9FEA000E6D1E /* USJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FB6EC9199C9FEA000E6D1E /* USJViewController.m */; };
+		A6FB6ECC199C9FEA000E6D1E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6FB6ECB199C9FEA000E6D1E /* Images.xcassets */; };
+		A6FB6ED3199C9FEA000E6D1E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FB6ED2199C9FEA000E6D1E /* XCTest.framework */; };
+		A6FB6ED4199C9FEA000E6D1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FB6EB3199C9FEA000E6D1E /* Foundation.framework */; };
+		A6FB6ED5199C9FEA000E6D1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FB6EB7199C9FEA000E6D1E /* UIKit.framework */; };
+		A6FB6EDD199C9FEA000E6D1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6FB6EDB199C9FEA000E6D1E /* InfoPlist.strings */; };
+		A6FB6EDF199C9FEA000E6D1E /* HelloJenkinsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FB6EDE199C9FEA000E6D1E /* HelloJenkinsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6FB6ED6199C9FEA000E6D1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6FB6EA8199C9FE9000E6D1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6FB6EAF199C9FEA000E6D1E;
+			remoteInfo = HelloJenkins;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A6FB6EB0199C9FEA000E6D1E /* HelloJenkins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloJenkins.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6FB6EB3199C9FEA000E6D1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6FB6EB5199C9FEA000E6D1E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6FB6EB7199C9FEA000E6D1E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6FB6EBB199C9FEA000E6D1E /* HelloJenkins-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloJenkins-Info.plist"; sourceTree = "<group>"; };
+		A6FB6EBD199C9FEA000E6D1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6FB6EBF199C9FEA000E6D1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6FB6EC1199C9FEA000E6D1E /* HelloJenkins-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloJenkins-Prefix.pch"; sourceTree = "<group>"; };
+		A6FB6EC2199C9FEA000E6D1E /* USJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = USJAppDelegate.h; sourceTree = "<group>"; };
+		A6FB6EC3199C9FEA000E6D1E /* USJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = USJAppDelegate.m; sourceTree = "<group>"; };
+		A6FB6EC6199C9FEA000E6D1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6FB6EC8199C9FEA000E6D1E /* USJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = USJViewController.h; sourceTree = "<group>"; };
+		A6FB6EC9199C9FEA000E6D1E /* USJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = USJViewController.m; sourceTree = "<group>"; };
+		A6FB6ECB199C9FEA000E6D1E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A6FB6ED1199C9FEA000E6D1E /* HelloJenkinsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloJenkinsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6FB6ED2199C9FEA000E6D1E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A6FB6EDA199C9FEA000E6D1E /* HelloJenkinsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloJenkinsTests-Info.plist"; sourceTree = "<group>"; };
+		A6FB6EDC199C9FEA000E6D1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6FB6EDE199C9FEA000E6D1E /* HelloJenkinsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloJenkinsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6FB6EAD199C9FEA000E6D1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6FB6EB6199C9FEA000E6D1E /* CoreGraphics.framework in Frameworks */,
+				A6FB6EB8199C9FEA000E6D1E /* UIKit.framework in Frameworks */,
+				A6FB6EB4199C9FEA000E6D1E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6FB6ECE199C9FEA000E6D1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6FB6ED3199C9FEA000E6D1E /* XCTest.framework in Frameworks */,
+				A6FB6ED5199C9FEA000E6D1E /* UIKit.framework in Frameworks */,
+				A6FB6ED4199C9FEA000E6D1E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6FB6EA7199C9FE9000E6D1E = {
+			isa = PBXGroup;
+			children = (
+				A6FB6EB9199C9FEA000E6D1E /* HelloJenkins */,
+				A6FB6ED8199C9FEA000E6D1E /* HelloJenkinsTests */,
+				A6FB6EB2199C9FEA000E6D1E /* Frameworks */,
+				A6FB6EB1199C9FEA000E6D1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6FB6EB1199C9FEA000E6D1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6FB6EB0199C9FEA000E6D1E /* HelloJenkins.app */,
+				A6FB6ED1199C9FEA000E6D1E /* HelloJenkinsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6FB6EB2199C9FEA000E6D1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6FB6EB3199C9FEA000E6D1E /* Foundation.framework */,
+				A6FB6EB5199C9FEA000E6D1E /* CoreGraphics.framework */,
+				A6FB6EB7199C9FEA000E6D1E /* UIKit.framework */,
+				A6FB6ED2199C9FEA000E6D1E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6FB6EB9199C9FEA000E6D1E /* HelloJenkins */ = {
+			isa = PBXGroup;
+			children = (
+				A6FB6EC2199C9FEA000E6D1E /* USJAppDelegate.h */,
+				A6FB6EC3199C9FEA000E6D1E /* USJAppDelegate.m */,
+				A6FB6EC5199C9FEA000E6D1E /* Main.storyboard */,
+				A6FB6EC8199C9FEA000E6D1E /* USJViewController.h */,
+				A6FB6EC9199C9FEA000E6D1E /* USJViewController.m */,
+				A6FB6ECB199C9FEA000E6D1E /* Images.xcassets */,
+				A6FB6EBA199C9FEA000E6D1E /* Supporting Files */,
+			);
+			path = HelloJenkins;
+			sourceTree = "<group>";
+		};
+		A6FB6EBA199C9FEA000E6D1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6FB6EBB199C9FEA000E6D1E /* HelloJenkins-Info.plist */,
+				A6FB6EBC199C9FEA000E6D1E /* InfoPlist.strings */,
+				A6FB6EBF199C9FEA000E6D1E /* main.m */,
+				A6FB6EC1199C9FEA000E6D1E /* HelloJenkins-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A6FB6ED8199C9FEA000E6D1E /* HelloJenkinsTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6FB6EDE199C9FEA000E6D1E /* HelloJenkinsTests.m */,
+				A6FB6ED9199C9FEA000E6D1E /* Supporting Files */,
+			);
+			path = HelloJenkinsTests;
+			sourceTree = "<group>";
+		};
+		A6FB6ED9199C9FEA000E6D1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6FB6EDA199C9FEA000E6D1E /* HelloJenkinsTests-Info.plist */,
+				A6FB6EDB199C9FEA000E6D1E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6FB6EAF199C9FEA000E6D1E /* HelloJenkins */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6FB6EE2199C9FEA000E6D1E /* Build configuration list for PBXNativeTarget "HelloJenkins" */;
+			buildPhases = (
+				A6FB6EAC199C9FEA000E6D1E /* Sources */,
+				A6FB6EAD199C9FEA000E6D1E /* Frameworks */,
+				A6FB6EAE199C9FEA000E6D1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloJenkins;
+			productName = HelloJenkins;
+			productReference = A6FB6EB0199C9FEA000E6D1E /* HelloJenkins.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6FB6ED0199C9FEA000E6D1E /* HelloJenkinsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6FB6EE5199C9FEA000E6D1E /* Build configuration list for PBXNativeTarget "HelloJenkinsTests" */;
+			buildPhases = (
+				A6FB6ECD199C9FEA000E6D1E /* Sources */,
+				A6FB6ECE199C9FEA000E6D1E /* Frameworks */,
+				A6FB6ECF199C9FEA000E6D1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6FB6ED7199C9FEA000E6D1E /* PBXTargetDependency */,
+			);
+			name = HelloJenkinsTests;
+			productName = HelloJenkinsTests;
+			productReference = A6FB6ED1199C9FEA000E6D1E /* HelloJenkinsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6FB6EA8199C9FE9000E6D1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = USJ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Ushio;
+				TargetAttributes = {
+					A6FB6ED0199C9FEA000E6D1E = {
+						TestTargetID = A6FB6EAF199C9FEA000E6D1E;
+					};
+				};
+			};
+			buildConfigurationList = A6FB6EAB199C9FE9000E6D1E /* Build configuration list for PBXProject "HelloJenkins" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6FB6EA7199C9FE9000E6D1E;
+			productRefGroup = A6FB6EB1199C9FEA000E6D1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6FB6EAF199C9FEA000E6D1E /* HelloJenkins */,
+				A6FB6ED0199C9FEA000E6D1E /* HelloJenkinsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6FB6EAE199C9FEA000E6D1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6FB6ECC199C9FEA000E6D1E /* Images.xcassets in Resources */,
+				A6FB6EBE199C9FEA000E6D1E /* InfoPlist.strings in Resources */,
+				A6FB6EC7199C9FEA000E6D1E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6FB6ECF199C9FEA000E6D1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6FB6EDD199C9FEA000E6D1E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6FB6EAC199C9FEA000E6D1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6FB6EC0199C9FEA000E6D1E /* main.m in Sources */,
+				A6FB6EC4199C9FEA000E6D1E /* USJAppDelegate.m in Sources */,
+				A6FB6ECA199C9FEA000E6D1E /* USJViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6FB6ECD199C9FEA000E6D1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6FB6EDF199C9FEA000E6D1E /* HelloJenkinsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6FB6ED7199C9FEA000E6D1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6FB6EAF199C9FEA000E6D1E /* HelloJenkins */;
+			targetProxy = A6FB6ED6199C9FEA000E6D1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A6FB6EBC199C9FEA000E6D1E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6FB6EBD199C9FEA000E6D1E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A6FB6EC5199C9FEA000E6D1E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6FB6EC6199C9FEA000E6D1E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A6FB6EDB199C9FEA000E6D1E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6FB6EDC199C9FEA000E6D1E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6FB6EE0199C9FEA000E6D1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A6FB6EE1199C9FEA000E6D1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6FB6EE3199C9FEA000E6D1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloJenkins/HelloJenkins-Prefix.pch";
+				INFOPLIST_FILE = "HelloJenkins/HelloJenkins-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6FB6EE4199C9FEA000E6D1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloJenkins/HelloJenkins-Prefix.pch";
+				INFOPLIST_FILE = "HelloJenkins/HelloJenkins-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A6FB6EE6199C9FEA000E6D1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloJenkins.app/HelloJenkins";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloJenkins/HelloJenkins-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HelloJenkinsTests/HelloJenkinsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A6FB6EE7199C9FEA000E6D1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloJenkins.app/HelloJenkins";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloJenkins/HelloJenkins-Prefix.pch";
+				INFOPLIST_FILE = "HelloJenkinsTests/HelloJenkinsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6FB6EAB199C9FE9000E6D1E /* Build configuration list for PBXProject "HelloJenkins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6FB6EE0199C9FEA000E6D1E /* Debug */,
+				A6FB6EE1199C9FEA000E6D1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6FB6EE2199C9FEA000E6D1E /* Build configuration list for PBXNativeTarget "HelloJenkins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6FB6EE3199C9FEA000E6D1E /* Debug */,
+				A6FB6EE4199C9FEA000E6D1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A6FB6EE5199C9FEA000E6D1E /* Build configuration list for PBXNativeTarget "HelloJenkinsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6FB6EE6199C9FEA000E6D1E /* Debug */,
+				A6FB6EE7199C9FEA000E6D1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6FB6EA8199C9FE9000E6D1E /* Project object */;
+}

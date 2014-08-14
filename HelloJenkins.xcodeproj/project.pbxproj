@@ -377,10 +377,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloJenkins/HelloJenkins-Prefix.pch";
 				INFOPLIST_FILE = "HelloJenkins/HelloJenkins-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "FA3CAB25-D7F2-4EE7-B604-5B096B5785E9";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -390,10 +392,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloJenkins/HelloJenkins-Prefix.pch";
 				INFOPLIST_FILE = "HelloJenkins/HelloJenkins-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "FA3CAB25-D7F2-4EE7-B604-5B096B5785E9";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -457,6 +461,7 @@
 				A6FB6EE4199C9FEA000E6D1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A6FB6EE5199C9FEA000E6D1E /* Build configuration list for PBXNativeTarget "HelloJenkinsTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +470,7 @@
 				A6FB6EE7199C9FEA000E6D1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
